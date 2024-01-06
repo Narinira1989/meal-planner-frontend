@@ -1,0 +1,49 @@
+body{
+  background: url('https://images.unsplash.com/photo-1543353071-873f17a7a088?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhlYWx0aHklMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+h2{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+input{
+  display: block;
+  color: white;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  background-color: #313133;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 5px;
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+input::-webkit-input-placeholder { color: white; }
+
+button{
+  padding: 20px 50px 20px 50px;
+  background-color: #024d3d;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+p{
+  max-width: 100%;
+  background: beige;
+  margin-top: 20px;
+  width: 600px;
+  font-size: 20px;
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
